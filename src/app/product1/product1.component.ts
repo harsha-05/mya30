@@ -7,7 +7,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class Product1Component implements OnInit {
 
-  constructor() { }
+  constructor() {
+
+    console .log('hie');
+   }
 
   ngOnInit() {
   }
